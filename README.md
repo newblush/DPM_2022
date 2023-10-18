@@ -67,22 +67,22 @@
 ### 07/27
 - Implement the procam calibration by homography method.
 
-###07/29
+### 07/29
 - Discuss with Peng-san about the feasibility and specific implementation plan of dynamic projection using the ExDCM tracking method.
 
-###08/03
+### 08/03
 - Complete real-time capturing with high-speed cameras and combine this part with the tracking method.
 - Test the projection part.
 
-###08/04
+### 08/04
 - Combine the projection part with the capture, tracking, rendering part.
 - Adjust rendering details and obtained preliminary results.
 - Discuss existing problems and possible solutions.
 
-###08/05
+### 08/05
 - Adjust the rendering and projection slightly by adjusting the fov and view matrix through trial.
 
-###08/09
+### 08/09
 - Record Demo.
 
 
