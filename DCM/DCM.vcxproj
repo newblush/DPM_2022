@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD75786A-4000-4743-9A47-12C40C5D322A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DCM</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\..\library\glm;C:\Users\t2ladmin\Desktop\fadeRelease_v1.37\fadeRelease\include_fade2d;..\..\library\glfw\include;..\..\library\OpenCV\opencv\build\include;C:\XIMEA\API;..\..\library\glew\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\k2vision\Documents\work\DCM\library\glm;C:\Users\k2vision\Documents\work\DCM\library\fadeRelease\include_fade2d;C:\Users\k2vision\Documents\work\DCM\library\glfw\include;C:\Users\k2vision\Documents\work\DCM\library\OpenCV\opencv\build\include;C:\XIMEA\API;C:\Users\k2vision\Documents\work\DCM\library\glew\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\k2vision\Documents\work\DCM\library\fadeRelease\x64;C:\Users\k2vision\Documents\work\DCM\library\glfw\lib-vc2015;C:\Users\k2vision\Documents\work\DCM\library\OpenCV\opencv\build\x64\vc14\lib;C:\XIMEA\API\x64;C:\Users\k2vision\Documents\work\DCM\library\glew\lib\Release\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\library\glm;C:\Users\t2ladmin\Desktop\fadeRelease_v1.37\fadeRelease\include_fade2d;..\..\library\glfw\include;..\..\library\OpenCV\opencv\build\include;C:\XIMEA\API;..\..\library\glew\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Miao\ExDCM\library\glew\include;D:\Miao\ExDCM\library\glm;D:\Miao\ExDCM\library\fadeRelease\include_fade2d;D:\Miao\ExDCM\library\glfw\include;D:\Miao\ExDCM\library\OpenCV\opencv\build\include;D:\Miao\ExDCM\library\glad\include;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\include;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\include\Basler;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\include\HSC;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Miao\ExDCM\library\fadeRelease\x64;D:\Miao\ExDCM\library\glfw\lib-vc2015;D:\Miao\ExDCM\library\OpenCV\opencv\build\x64\vc14\lib;D:\Miao\ExDCM\library\glew\lib\Release\x64;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\lib;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\lib\Basler;D:\Koishihara\HighSpeedCamera\HighSpeedCamera\util\lib\HSC;D:\Miao\ExDCM\library\dyna;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include=".\make_point.cpp" />
+    <ClCompile Include=".\model_io.cpp" />
+    <ClCompile Include="draw_opengl_shade.cpp" />
+    <ClCompile Include="draw_thread.cpp" />
+    <ClCompile Include="HighSpeedProjector.cpp" />
+    <ClCompile Include="idpExpress.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="opengl_utility.cpp" />
+    <ClCompile Include="pnp_track_thread.cpp" />
+    <ClCompile Include="ProjectorUtility.cpp" />
+    <ClCompile Include="recognition.cpp" />
+    <ClCompile Include="recognition_debug.cpp" />
+    <ClCompile Include="save_thread.cpp" />
+    <ClCompile Include="tracking_thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\make_point.hpp" />
+    <ClInclude Include=".\model_io.hpp" />
+    <ClInclude Include=".\vector.hpp" />
+    <ClInclude Include="capture_class.hpp" />
+    <ClInclude Include="capture_thread.hpp" />
+    <ClInclude Include="compier_attribute.hpp" />
+    <ClInclude Include="custom_hash.hpp" />
+    <ClInclude Include="draw_opengl_shade.hpp" />
+    <ClInclude Include="draw_thread.hpp" />
+    <ClInclude Include="DynaFlash.h" />
+    <ClInclude Include="findMarker.hpp" />
+    <ClInclude Include="HighSpeedProj.h" />
+    <ClInclude Include="HighSpeedProjector.h" />
+    <ClInclude Include="idpExpress.h" />
+    <ClInclude Include="interval_timer.hpp" />
+    <ClInclude Include="load_camera_data.hpp" />
+    <ClInclude Include="meta_programming.hpp" />
+    <ClInclude Include="ObjData.h" />
+    <ClInclude Include="opengl_utility.hpp" />
+    <ClInclude Include="pnp_track_thread.hpp" />
+    <ClInclude Include="ProjectorUtility.h" />
+    <ClInclude Include="recognition.hpp" />
+    <ClInclude Include="recognition_thread.hpp" />
+    <ClInclude Include="recognizer.hpp" />
+    <ClInclude Include="ring_buffer.hpp" />
+    <ClInclude Include="save_thread.hpp" />
+    <ClInclude Include="tracking_data.hpp" />
+    <ClInclude Include="tracking_thread.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
