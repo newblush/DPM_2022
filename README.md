@@ -32,7 +32,7 @@
         - diffuse reflection constant $k_d=0.5$
         - specular reflection constant $k_s=1$
         - shininess $\alpha=2$
-        - ![image.png](./img/1.png)
+        - ![1](https://github.com/newblush/DPM_2022/blob/main/img/1.png)
 
 
 
@@ -49,8 +49,8 @@
 - Demo Making
     - projected color is too light under visible illumination
     - IR illumination
-        - ![image.png](./img/2.png)
-    - ![9020f3e495723c206c3da7e026d91ca7.png](./img/3.png)
+        - ![2](https://github.com/newblush/DPM_2022/blob/main/img/2.png)
+    - ![3](https://github.com/newblush/DPM_2022/blob/main/img/3.png)
 
 
 ## Reference
@@ -88,4 +88,4 @@
 
 ## Demo
 
-<video controls><source src="./img/demo.mp4"></video>
+[Google drive](https://drive.google.com/file/d/1gEhtAhlshs5KFxiOt6rCF58KEnvOKcLG/view?usp=share_link)
